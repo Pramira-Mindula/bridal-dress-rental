@@ -7,7 +7,6 @@ A simple and elegant online bridal dress rental system built using **PHP**, **My
 ## 🌟 Features
 
 - 🧑‍💻 Customer registration and login (with sessions)
-- 👗 Admin dashboard to add and manage dresses
 - 💳 Dress booking with 8-digit Booking ID
 - 🧾 Billing with total, discount, and advance amount
 - 📅 Booking and return date tracking
@@ -18,11 +17,12 @@ A simple and elegant online bridal dress rental system built using **PHP**, **My
 ## 🗃 Database Design
 
 Main Tables:
-- `user_acc` — stores user login info  
-- `customers` — customer details  
+- `customers` — customer details and login info
+- `staff` — staff details and login info
 - `dresses` — dress catalog  
-- `bookings` — booking information  
-- `bills` — billing details  
+- `bookeddress` — booking information  
+- `bills` — billing details
+- `inquiry` - inquiry messages
 
 ---
 
