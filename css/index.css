@@ -1,0 +1,121 @@
+/* home page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    text-decoration: none; /* Removes underline */
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+
+/* HERO */
+.hero {
+    background-image: url('../img/hero2.1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: right;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    padding: 220px 0;
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    margin-right: 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.hero-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgb(232, 24, 76);
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: rgb(179, 1, 46);
+}
+
+
+
+
+/* Bridal Dresses Section */
+.bridal-dresses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.bridal-dresses-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.bridal-dresses-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bridal-dresses-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bridal-btn {
+    background-color: #ff8c00;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.bridal-dresses-image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.bridal-dresses-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

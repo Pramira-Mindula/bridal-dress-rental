@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    background: white;
+}
+
+.profile-container p {
+    line-height: 2;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.logout-btn {
+    background: red;
+    color: white;
+}
+
+.addDress-btn {
+    background: rgb(50, 50, 182);
+    color: white;
+}
+

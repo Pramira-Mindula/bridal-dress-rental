@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/signup_bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5; /* Adjust the opacity level */
+    z-index: -1;
+}
+
+h1 { text-shadow: -4px -4px 10px rgba(255, 255, 255, 1); }
+#form-container {
+    /* background: rgba(255, 255, 255, 0.9); */
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid rgb(232, 24, 76);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.checkb {
+    width: auto;
+}
+
+select, textarea, input { 
+    border: 1px solid rgb(232, 24, 76);
+    width: 100%; padding: 8px; 
+    margin-bottom: 10px; 
+    border-radius: 10px;
+}
+
+.terms-container { 
+    margin-top: 10px; 
+}
+
+
+.terms-link { 
+    color: blue; 
+    cursor: pointer; 
+    text-decoration: underline; 
+}
+
+button { 
+    width: 100%;
+    background: rgb(232, 24, 76); 
+    color: white; 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
+
+button:hover { 
+    background: rgb(179, 1, 46); 
+}
+
+.error, .success { 
+    text-align: center; 
+    padding: 10px; 
+    margin: 10px 0; 
+}
+
+.error { 
+    background: #ffdddd; 
+    color: red; 
+}
+
+.success { 
+    background: #ddffdd; 
+    color: green; 
+}
+
+.modal { 
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content { 
+    background: #fff; 
+    margin: 15% auto; 
+    padding: 30px; 
+    border: 2px solid #888; 
+    width: 50%; 
+    border-radius: 10px; 
+}
+
+.modal-content h2 {
+    font-size: 24px; 
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.modal-content p {
+    font-size: 16px; 
+    color: #555; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.modal-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #333;
+}
+
+.modal-content li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.close { 
+    color: #aaa; 
+    float: right; 
+    font-size: 28px; 
+    font-weight: bold; 
+    cursor: pointer; 
+}

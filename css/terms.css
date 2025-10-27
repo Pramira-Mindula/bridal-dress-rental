@@ -1,0 +1,98 @@
+/* General styling for the terms section */
+.terms {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Heading styling */
+.terms h1 {
+    font-size: 2em;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.terms h2 {
+    font-size: 1.5em;
+    color: #0056b3;
+    margin-top: 20px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+.terms p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Bold text */
+.terms b {
+    font-weight: bold;
+}
+
+/* Add space between sections */
+.terms br {
+    margin-top: 20px;
+}
+
+/* Terms and Conditions section layout */
+.terms ul {
+    padding-left: 20px;
+}
+
+.terms li {
+    margin-bottom: 10px;
+}
+
+/* Special styling for links */
+.terms a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Section with legal and policy warnings */
+.terms .legal-warning {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 4px solid #007BFF;
+}
+
+.terms .legal-warning p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* For responsiveness */
+@media (max-width: 768px) {
+    .terms {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .terms h1 {
+        font-size: 1.8em;
+    }
+
+    .terms h2 {
+        font-size: 1.3em;
+    }
+
+    .terms p {
+        font-size: 0.9em;
+    }
+}

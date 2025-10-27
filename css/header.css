@@ -1,0 +1,87 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+header{
+    /* background-color: rgb(19, 33, 34); */
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* border-bottom: 1px solid gray; */
+    box-shadow: 0px 10px 20px rgba(134, 132, 132, 0.2);
+    
+}
+
+.logo {
+    margin-left: -50px;
+    width: 45%;
+    height: 45%;
+}
+
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    /* text-decoration: underline; */
+    color: rgb(232, 24, 76);
+}
+
+.sign {
+    margin-right: -100px;
+    
+}
+
+.sign .a {
+    text-decoration: none;
+}
+
+.sign button {
+    background-color: rgb(232, 24, 76);
+    color: #ffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.sign button:hover {
+    background-color: rgb(179, 1, 46);
+    transform: scale(1);
+}
