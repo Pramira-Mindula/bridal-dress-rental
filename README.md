@@ -29,5 +29,6 @@ Main Tables:
 ## ⚙️ Setup Instructions
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/bridal-dress-rental.git
+   ```
+   https://github.com/Pramira-Mindula/bridal-dress-rental.git
+   ```
